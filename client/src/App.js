@@ -1,8 +1,12 @@
 import React from 'react';
+import Chat from "./components/Chat";
+import "./GlobalStyle.css";
 
 const App = () => {
   return (
-    <div></div>
+    <div className="application">
+      <Chat/>
+    </div>
   )
 }
 
